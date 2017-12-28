@@ -37,5 +37,21 @@
         </div>
       </div>
     </div>
+      <script>const input = document.querySelector('input');
+      input.addEventListener('keydown',function(e){
+        console.log(e.which)
+      })
+      input.addEventListener('click', function(e){
+        alert('mwahahaha')
+      })
+      const main = document.querySelector('#main')
+      main.addEventListener('mouseover',function(e){
+        main.innerHTML = 'Go away...'
+      })
+      main.addEventListener('mouseout', function(e){
+        main.innerHTML = '...'
+      })
+  </script>
   </body>
+
 </html>
